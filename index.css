@@ -1,0 +1,98 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    max-width: 420px;
+    margin: 0 auto;
+    align-items: center;
+    background-color: #ddd;
+}
+
+header {
+    height: 60px;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ddd;
+    background-color: #fff;
+}
+
+.post {
+    background-color: #fff;
+}
+
+.poster-header {
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+}
+
+.user-avatar, .poster-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.poster-avatar {
+    margin-right: 15px;
+}
+
+.poster-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+}
+
+.username {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 700;
+}
+
+.poster-location {
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.post-img {
+    width: 100%;
+}
+
+.action-btns {
+    display: flex;
+    justify-content: left;
+    padding: 10px 15px;
+    gap: 15px
+}
+
+.action-btns button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.btn-icon {
+    width: 30px;
+}
+
+.post-likes {
+    margin: 0;
+    padding: 0 15px;
+    font-weight: 600;
+}
+
+.post-comment {
+    padding: 0 15px 20px 15px;
+}
+
+.comment-user {
+    font-weight: 600;
+}
