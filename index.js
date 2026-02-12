@@ -45,7 +45,7 @@ for (let i = 0; i < posts.length; i++) {
                 <h2 class="poster-location">${posts[i].location}</h2>
             </div>
         </div>
-        <img class="post-img" src="${posts[i].post}" alt="Post image">
+        <img class="post-img" src="${posts[i].post}" alt="Post image" ondblclick="likePost(${i})">
         <div class="action-btns">
             <button class="like-button" aria-label="Like" onclick="likePost(${i})"><img class="btn-icon" src="images/icon-heart.png" alt=""></button>
             <button class="comment-button" aria-label="Comment"><img class="btn-icon" src="images/icon-comment.png" alt=""></button>
